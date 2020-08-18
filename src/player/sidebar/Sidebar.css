@@ -1,0 +1,98 @@
+.sidebar {
+    height: 100vh;
+    flex: 0.2;
+    color: #fff;
+    min-width: 230px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #040404;
+}
+
+.sidebar_logo {
+    height: 70px;
+    padding: 10px;
+    margin-right: auto;
+}
+
+
+.Premium {
+    position: absolute;
+    bottom: 5px;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2dee37;
+    background: transparent;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.Premium:hover {
+    color: #161718;
+    background: #2dee37;
+    box-shadow: 0 0 10px #2dee37, 0 0 40px #2dee37, 0 0 80px #2dee37;
+    transition-delay: 0.5s;
+} 
+
+/* .Premium span{
+ position: absolute;
+ display: block;
+
+}
+.first{
+    top:0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #2196f3);  
+
+}
+
+.Premium:hover .first{
+ left: 100%;
+ transition: 1s;
+}
+.Premium  .third{
+    bottom:0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #2196f3);  
+
+}
+
+.Premium:hover .third{
+ right: 100%;
+ transition: 0.5s;
+}
+.Premium .second{
+    top:-100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #2196f3);  
+
+}
+
+.Premium:hover .second{
+ top: 100%;
+ transition: 1s;
+ transition-delay: 0.25s;
+}
+.Premium .forth{
+    bottom:-100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #2196f3);  
+
+}
+
+.Premium:hover .forth{
+ bottom: 100%;
+ transition: 1s;
+ transition-delay: 0.75s;
+} */
