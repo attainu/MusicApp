@@ -1,9 +1,17 @@
+
+
+
 //https://developer.spotify.com/documentation/web-playback-sdk/quick-start/
 
 export const authEndpoint = 'https://accounts.spotify.com/authorize';
 
-const redirectUrl = window.location.origin + '/'; //where are you running your app (local react by default is http://localhost:3000/
-const clientId = 'd3384f96a6054701a7cf023eb714c440'; // clintId you can get at https://developer.spotify.com/dashboard
+const redirectUrl = "https://ksm-player.herokuapp.com/"; //where are you running your app (local react by default is http://localhost:3000/
+
+// window.location.origin + '/'; 
+
+// 'https://ksm-player.herokuapp.com/';
+
+const clientId = 'df46f2716ad448049c476a3966395072'; // clientId you can get at https://developer.spotify.com/dashboard
 
 /**
  * You can read more about Spotify scopes at https://developer.spotify.com/documentation/general/guides/scopes/
