@@ -39,7 +39,7 @@ function Body({spotify}) {
                     src={current_playlist ? current_playlist?.images[0].url : 'https://cdn.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_250/https://www.hypebot.com/wp-content/uploads/2020/07/discover-weekly-250x250.png'}
                     alt=""/>
                 <div className="body__infoText">
-                    <strong>PLAYLIST</strong>
+                    <strong>Playlists</strong>
                     <h2>{current_playlist?.name}</h2>
                     <p>{current_playlist?.description}</p>
                 </div>

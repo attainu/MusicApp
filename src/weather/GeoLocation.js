@@ -57,12 +57,11 @@ class GeoLocation extends Component {
                     <>
                     <hr/>
                     <br/>
-                    <h2 className="container">Weather</h2>
-                    <h2 className="header">{city}</h2>
-                    <h3>Temp:{temperatureC}&deg;C</h3>
-                    <h3>Temp{temperatureF}&deg;F</h3>
-                    <h3>Temp{temperatureF}&deg;F</h3>
-                    <img className='weather-icon' src={`http://opneweathermap.org/img/w/${icon}.png`} />
+                    <p className="container"><b>Weather</b></p>
+                    <p className="header"><b>{city}</b></p>
+                    <p>Temp : {temperatureC} &deg;C</p>
+                    <p>Temp : {temperatureF} &deg;F</p>
+                    {/* <img className='weather-icon' src={`http://opneweathermap.org/img/w/${icon}.png`} /> */}
                     </>
                 )
             }

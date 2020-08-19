@@ -18,6 +18,8 @@ const scopes = [
 
 export const loginUrl = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUrl}&scopes=${scopes.join('%20')}&response_type=token&show_dialog=true`;
 
+export const logoutUrl =`${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUrl}&scopes=${scopes.join('%20')}&response_type=token&show_dialog=true`
+
 export const getAccessTokenFromUrl = () => {
     return window.location.hash
         .substring(1)

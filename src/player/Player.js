@@ -16,4 +16,4 @@ function Player({ spotify }) {
     )
 }
 
-export default Player
+export default Player;

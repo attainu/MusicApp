@@ -24,6 +24,23 @@
     align-items: center;
 }
 
+.header__right .pre{
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: burlywood;
+}
+
+.header__right .pre:hover {
+    color: #161718;
+    background: #38e7d0;
+    box-shadow: 0 0 10px #38e7d0, 0 0 40px #38e7d0, 0 0 80px #38e7d0;
+    transition-delay: 0.2s;
+} 
+
 .header__right > h4 {
     margin-left: 10px;
 }
